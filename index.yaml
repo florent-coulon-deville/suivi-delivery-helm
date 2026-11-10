@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  suivi-delivery-api:
+  - apiVersion: v2
+    appVersion: 0.11.0
+    created: "2026-11-10T17:20:50.125408979Z"
+    description: Suivi de la delivery - API (FastAPI, SQLite)
+    digest: 6594d2fa3f5b78d92b8ef2751963e940b3ff5a34ef96d1ec673e7df787df6341
+    kubeVersion: '>=1.29.0-0'
+    name: suivi-delivery-api
+    type: application
+    urls:
+    - https://florent-coulon-deville.github.io/suivi-delivery-helm/suivi-delivery-api/suivi-delivery-api-0.11.0.tgz
+    version: 0.11.0
+generated: "2026-11-10T17:20:50.124477193Z"
