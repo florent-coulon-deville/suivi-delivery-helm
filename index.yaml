@@ -48,6 +48,17 @@ entries:
     version: 0.12.0
   suivi-delivery-front-next:
   - apiVersion: v2
+    appVersion: 0.11.0
+    created: "2026-11-11T21:56:01.980071678Z"
+    description: Suivi de la delivery - interface web (Next.js)
+    digest: a25d828839ede783ff74b589ce2e8edb0aaf1aa79ee9e9e505e1479a83c8793d
+    kubeVersion: '>=1.29.0-0'
+    name: suivi-delivery-front-next
+    type: application
+    urls:
+    - https://florent-coulon-deville.github.io/suivi-delivery-helm/suivi-delivery-front-next/suivi-delivery-front-next-0.11.0.tgz
+    version: 0.11.0
+  - apiVersion: v2
     appVersion: 0.10.0
     created: "2026-11-10T21:17:34.357965892Z"
     description: Suivi de la delivery - interface web (Next.js)
@@ -58,4 +69,4 @@ entries:
     urls:
     - https://florent-coulon-deville.github.io/suivi-delivery-helm/suivi-delivery-front-next/suivi-delivery-front-next-0.10.0.tgz
     version: 0.10.0
-generated: "2026-11-11T21:50:55.673253448Z"
+generated: "2026-11-11T21:56:01.977081764Z"
