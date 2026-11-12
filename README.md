@@ -28,3 +28,14 @@ Les mêmes charts sont aussi dans ghcr.io, en OCI et privés :
 Ce dépôt est public, donc les charts aussi (templates et valeurs par défaut). Les images restent
 privées dans ghcr.io : le cluster les télécharge avec son Secret de registre. Aucun secret ni
 adresse interne dans un `values.yaml` publié.
+
+## Licence
+
+[Apache 2.0](LICENSE) avec la condition **Commons Clause** : chacun peut utiliser, modifier et
+redistribuer ce logiciel, y compris en entreprise, mais **pas le vendre**, ni vendre un produit ou
+un service (hébergement, conseil, support…) dont la valeur vient, en tout ou en grande partie, de
+ce logiciel. Ce n'est donc pas une licence open source au sens de l'OSI. Texte complet :
+[LICENSE](LICENSE).
+
+Les charts publiés avant l'ajout de cette condition restent sous Apache 2.0 seule ; elle s'applique aux
+versions suivantes, qui embarquent leur fichier `LICENSE`.
