@@ -80,4 +80,17 @@ entries:
     urls:
     - https://florent-coulon-deville.github.io/suivi-delivery-helm/suivi-delivery-front-next/suivi-delivery-front-next-0.10.0.tgz
     version: 0.10.0
-generated: "2026-11-16T10:25:43.620006456Z"
+  suivi-delivery-keycloak:
+  - apiVersion: v2
+    appVersion: 26.8.0
+    created: "2026-11-16T14:00:23.52906866Z"
+    description: Suivi de la delivery - IdP Keycloak et sa base PostgreSQL (un pod,
+      deux conteneurs, images officielles)
+    digest: 423d4a75d2b1a7e9c8fc742fe5084c7913af952e56720bb31f8fe482fa017f51
+    kubeVersion: '>=1.29.0-0'
+    name: suivi-delivery-keycloak
+    type: application
+    urls:
+    - https://florent-coulon-deville.github.io/suivi-delivery-helm/suivi-delivery-keycloak/suivi-delivery-keycloak-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-11-16T14:00:23.527078402Z"
