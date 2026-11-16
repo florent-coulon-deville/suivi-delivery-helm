@@ -14,6 +14,17 @@ entries:
     version: 0.11.0
   suivi-delivery-backend:
   - apiVersion: v2
+    appVersion: 0.15.0
+    created: "2026-11-16T10:25:43.621656598Z"
+    description: Suivi de la delivery - API (FastAPI, SQLite ou PostgreSQL)
+    digest: c93d2cfb1b7a83da8ba14e956c0d1910b5b2d1efa3f10e0f960d5d62d8a2c915
+    kubeVersion: '>=1.29.0-0'
+    name: suivi-delivery-backend
+    type: application
+    urls:
+    - https://florent-coulon-deville.github.io/suivi-delivery-helm/suivi-delivery-backend/suivi-delivery-backend-0.15.0.tgz
+    version: 0.15.0
+  - apiVersion: v2
     appVersion: 0.14.0
     created: "2026-11-11T21:50:55.674172192Z"
     description: Suivi de la delivery - API (FastAPI, SQLite)
@@ -69,4 +80,4 @@ entries:
     urls:
     - https://florent-coulon-deville.github.io/suivi-delivery-helm/suivi-delivery-front-next/suivi-delivery-front-next-0.10.0.tgz
     version: 0.10.0
-generated: "2026-11-11T21:56:01.977081764Z"
+generated: "2026-11-16T10:25:43.620006456Z"
