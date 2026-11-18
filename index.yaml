@@ -14,6 +14,17 @@ entries:
     version: 0.11.0
   suivi-delivery-backend:
   - apiVersion: v2
+    appVersion: 0.16.0
+    created: "2026-11-18T18:35:27.044784102Z"
+    description: Suivi de la delivery - API (FastAPI, SQLite ou PostgreSQL)
+    digest: b3ca58244c0b0571e3def0bbe4551d7c8b1d4a7b4a3fa71982273f2832ca8fdf
+    kubeVersion: '>=1.29.0-0'
+    name: suivi-delivery-backend
+    type: application
+    urls:
+    - https://florent-coulon-deville.github.io/suivi-delivery-helm/suivi-delivery-backend/suivi-delivery-backend-0.16.0.tgz
+    version: 0.16.0
+  - apiVersion: v2
     appVersion: 0.15.1
     created: "2026-11-16T14:31:03.789785121Z"
     description: Suivi de la delivery - API (FastAPI, SQLite ou PostgreSQL)
@@ -151,4 +162,4 @@ entries:
     urls:
     - https://florent-coulon-deville.github.io/suivi-delivery-helm/suivi-delivery-keycloak/suivi-delivery-keycloak-0.1.0.tgz
     version: 0.1.0
-generated: "2026-11-16T20:31:02.387563323Z"
+generated: "2026-11-18T18:35:27.041741189Z"
