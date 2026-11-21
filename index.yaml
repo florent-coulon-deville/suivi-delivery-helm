@@ -92,6 +92,17 @@ entries:
     version: 0.12.0
   suivi-delivery-front-angular:
   - apiVersion: v2
+    appVersion: 0.3.0
+    created: "2026-11-21T09:29:42.259620683Z"
+    description: Suivi de la delivery - interface web Angular et son BFF FastAPI
+    digest: 950032d85ed7b5d2cf5b8d5046b14c2b0a6066611f020b827cb43f17585dd373
+    kubeVersion: '>=1.29.0-0'
+    name: suivi-delivery-front-angular
+    type: application
+    urls:
+    - https://florent-coulon-deville.github.io/suivi-delivery-helm/suivi-delivery-front-angular/suivi-delivery-front-angular-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: 0.2.0
     created: "2026-11-18T18:35:59.071683589Z"
     description: Suivi de la delivery - interface web Angular et son BFF FastAPI
@@ -184,4 +195,4 @@ entries:
     urls:
     - https://florent-coulon-deville.github.io/suivi-delivery-helm/suivi-delivery-keycloak/suivi-delivery-keycloak-0.1.0.tgz
     version: 0.1.0
-generated: "2026-11-21T09:22:27.342670216Z"
+generated: "2026-11-21T09:29:42.258665161Z"
